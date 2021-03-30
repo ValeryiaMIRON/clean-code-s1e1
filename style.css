@@ -111,12 +111,13 @@ body {
 }
 
 #new-task {
-  width: 360px;
+  width: 500px;
 }
 
+/*
 .add-btn__new-task:hover {
   color: #0fc57c;
-}
+}*/
 
 /* Task list */
 .task-list__item {
