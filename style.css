@@ -105,7 +105,7 @@ body {
 }
 
 /* New Task */
-.new-task__item {
+.new-task-item {
   display: block;
   margin: 0 0 20px;
 }
@@ -129,6 +129,10 @@ body {
   align-items: center;
 }
 
+.task-list__item > * {
+  vertical-align: middle;
+}
+
 .task-list__checkbox {
   margin: 0 10px;
 }
@@ -144,7 +148,7 @@ body {
   width: 226px;
 }
 
-.add-btn .btn-delete:hover {
+.btn-delete:hover {
   color: #cf2323;
 }
 
@@ -155,8 +159,8 @@ body {
 }
 
 .add-btn-remove__img:hover {
-  transform: rotateZ(0);
-}
+    transform: rotateZ(0);
+  }
 
 /* Completed */
 .task-list__complete .task-list__label {
